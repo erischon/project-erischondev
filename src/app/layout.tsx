@@ -1,27 +1,23 @@
-"use client";
-
-import { MyThemeContextProvider } from "@/store/ThemeContext";
+import type { Metadata } from "next";
+import { Nunito } from "next/font/google";
 
 import "./globals.css";
 
-/**
- * @description Root Layout
- * @version 1.0.0
- */
+const nunito = Nunito({ subsets: ["latin"] });
+
+export const metadata: Metadata = {
+  title: "Eri Schön",
+  description: "Eri Schön - Développeur Front-end",
+};
+
 export default function RootLayout({
   children,
 }: {
   children: React.ReactNode;
 }) {
   return (
-    <MyThemeContextProvider>
-      <html lang="en">
-        <body>
-          <div className="dark:bg-gray-800 bg-gray-50 dark:text-gray-100 text-gray-800">
-            {children}
-          </div>
-        </body>
-      </html>
-    </MyThemeContextProvider>
+    <html lang="en">
+      <body className={nunito.className}>{children}</body>
+    </html>
   );
 }
