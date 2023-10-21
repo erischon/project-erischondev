@@ -40,8 +40,11 @@ export default function AboutSection() {
           </p>
 
           <div className="flex gap-x-5">
-            {specialities.map((speciality) => (
-              <div className="flex flex-col gap-y-2 bg-slate-900/70 p-5 rounded-lg">
+            {specialities.map((speciality, k) => (
+              <div
+                key={k}
+                className="flex flex-col gap-y-2 bg-slate-900/70 p-5 rounded-lg"
+              >
                 <div className="bg-amber-400 w-fit p-2 text-2xl text-slate-900 rounded-xl">
                   {speciality.icon}
                 </div>
@@ -59,8 +62,11 @@ export default function AboutSection() {
         <p className="flex items-center text-lg font-semibold">
           En quelques chiffres
         </p>
-        {metrics.map((metric) => (
-          <div className="flex flex-col text-center p-5 bg-slate-800 rounded-lg">
+        {metrics.map((metric, k) => (
+          <div
+            key={k}
+            className="flex flex-col text-center p-5 bg-slate-800 rounded-lg"
+          >
             <span className="text-3xl font-bold">{metric.metric}</span>
             <span className="text-sm">{metric.description}</span>
           </div>

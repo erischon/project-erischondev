@@ -10,8 +10,8 @@ export default function PortfolioSection() {
       <SectionTitle>Portfolio</SectionTitle>
 
       <div className="flex gap-10">
-        {projects.map((project) => (
-          <ProjectCard project={project} />
+        {projects.map((project, k) => (
+          <ProjectCard key={k} project={project} />
         ))}
       </div>
     </Section>
