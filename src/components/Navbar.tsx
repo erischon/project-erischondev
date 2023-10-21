@@ -1,13 +1,7 @@
-"use client";
-
 import Link from "next/link";
 
 import { routes } from "@/data/routes";
 
-/**
- * Renders a Navbar component.
- * @returns JSX.Element
- */
 export default function Navbar(): JSX.Element {
   return (
     <nav>

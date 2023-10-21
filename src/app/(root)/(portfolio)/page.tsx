@@ -1,7 +1,3 @@
-/**
- * Renders the Portfolio Page component.
- * @returns JSX.Element
- */
 export default function PortfolioPage(): JSX.Element {
   return (
     <>

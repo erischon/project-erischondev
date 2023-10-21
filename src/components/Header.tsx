@@ -3,10 +3,6 @@ import Image from "next/image";
 
 import Navbar from "@/components/Navbar";
 
-/**
- * Renders the header component.
- * @returns JSX.Element
- */
 export default function Header(): JSX.Element {
   return (
     <header className="fixed flex justify-between items-center py-5 w-full max-w-screen-xl bg-slate-900 px-5 border-b-2 border-slate-800 z-50">
