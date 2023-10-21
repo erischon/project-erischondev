@@ -1,27 +1,24 @@
-"use client";
-
-import { MyThemeContextProvider } from "@/store/ThemeContext";
+import type { Metadata } from "next";
 
 import "./globals.css";
 
-/**
- * @description Root Layout
- * @version 1.0.0
- */
+export const metadata: Metadata = {
+  title: "Eri Schön",
+  description: "Eri Schön - Développeur Front-end",
+};
+
 export default function RootLayout({
   children,
 }: {
   children: React.ReactNode;
 }) {
   return (
-    <MyThemeContextProvider>
-      <html lang="en">
-        <body>
-          <div className="dark:bg-gray-800 bg-gray-50 dark:text-gray-100 text-gray-800">
-            {children}
-          </div>
-        </body>
-      </html>
-    </MyThemeContextProvider>
+    <html lang="en">
+      <body
+        className={`min-h-screen bg-slate-900 text-slate-100 max-w-screen-xl mx-auto`}
+      >
+        {children}
+      </body>
+    </html>
   );
 }
