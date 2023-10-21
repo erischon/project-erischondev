@@ -20,7 +20,7 @@ export default function HeroSection() {
             </h2>
             <p className="text-slate-100/80">
               Je suis un Artisan Développeur spécialisé dans la confection
-              d'applications web Fluides, Rapides et Fiables.
+              d&apos;applications web Fluides, Rapides et Fiables.
             </p>
           </div>
 

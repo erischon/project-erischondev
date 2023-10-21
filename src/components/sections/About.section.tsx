@@ -16,7 +16,7 @@ export default function AboutSection() {
 
           <div className="flex flex-col text-xl tracking-widest font-bold justify-start">
             <span>Ans</span>
-            <span>d'expériences</span>
+            <span>d&apos;expériences</span>
             <span>professionnelles</span>
           </div>
         </div>
@@ -28,14 +28,14 @@ export default function AboutSection() {
               remote.
             </span>
             <span>
-              Je suis tombé dans l'univers du Web en 1995 et depuis je ne l'ai
-              pas quitté.
+              Je suis tombé dans l&apos;univers du Web en 1995 et depuis je ne
+              l&apos;ai pas quitté.
             </span>
 
             <span>
               De Traffic Manager à Développeur Front-end en passant par Project
-              Manager et Consultant Webmarketing j'ai passé plus de 20 ans à
-              travailler dans le Web.
+              Manager et Consultant Webmarketing j&apos;ai passé plus de 20 ans
+              à travailler dans le Web.
             </span>
           </p>
 
