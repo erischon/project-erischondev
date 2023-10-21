@@ -1,15 +1,23 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz@6..12&family=Zilla+Slab&display=swap");
 
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300;400;600;700&family=Source+Sans+3:wght@300;400;600;700&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 * {
-  font-family: "Nunito Sans", sans-serif;
+  /* font-family: "Nunito Sans", sans-serif; */
+  font-family: "Source Sans 3", sans-serif;
+  letter-spacing: 0.1rem;
 }
 
 h1,
 h2,
 h3 {
-  font-family: "Zilla Slab", serif;
+  /* font-family: "Zilla Slab", serif; */
+  /* font-family: "Ubuntu Mono", monospace; */
+  font-family: "Source Code Pro", monospace;
+  letter-spacing: 0.1rem;
 }

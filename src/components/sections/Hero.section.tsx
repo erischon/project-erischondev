@@ -5,7 +5,7 @@ import { SiLinkedin, SiGithub } from "react-icons/si";
 
 export default function HeroSection() {
   return (
-    <section id="home" className="px-5 w-full pt-[82px]">
+    <section id="home" className="px-5 w-full py-20">
       <div className="grid md:grid-cols-12">
         <div className="col-span-6 ">
           <div className="flex flex-col mb-7">
@@ -18,7 +18,7 @@ export default function HeroSection() {
             <h2 className="text-5xl font-bold tracking-widest mb-7">
               Développeur Front-end
             </h2>
-            <p>
+            <p className="text-slate-100/80">
               Je suis un Artisan Développeur spécialisé dans la confection
               d'applications web Fluides, Rapides et Fiables.
             </p>
