@@ -15,7 +15,7 @@ export default function Header(): JSX.Element {
             height={30}
           />
 
-          <h2 className="text-xl font-light tracking-wider">Eri Schön</h2>
+          <h2 className="text-xl font-bold tracking-wider">Eri Schön</h2>
         </Link>
       </div>
 

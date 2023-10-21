@@ -9,9 +9,9 @@ export default function HeroSection() {
       <div className="grid md:grid-cols-12">
         <div className="col-span-6 ">
           <div className="flex flex-col mb-7">
-            <p className="text-slate-300 text-lg">
+            <p className="text-slate-300 text-lg mb-1">
               <span className="mr-2">Bonjour, je suis</span>
-              <span className="text-xl text-amber-300 tracking-wider font-thin">
+              <span className="text-xl text-amber-300 tracking-wider">
                 Eri Schön
               </span>
             </p>

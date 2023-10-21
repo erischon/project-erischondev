@@ -8,7 +8,7 @@ export default function Section({
   styles?: string;
 }) {
   return (
-    <section id={id} className={`${styles} py-14 w-full`}>
+    <section id={id} className={`${styles} pt-14 w-full`}>
       {children}
     </section>
   );

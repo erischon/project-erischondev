@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { HiOutlineArrowUpRight } from "react-icons/hi2";
+import { BiLinkAlt } from "react-icons/bi";
 
 type ProjectProps = {
   title: string;
@@ -27,7 +27,7 @@ export default function ProjectCard({ project }: { project: ProjectProps }) {
           <p className="text-xs text-slate-100/70">{project.description}</p>
 
           <button className="">
-            <HiOutlineArrowUpRight className="text-4xl text-slate-100 bg-purple-600 rounded-full p-2" />
+            <BiLinkAlt className="text-4xl text-slate-100 bg-purple-600 rounded-full p-2" />
           </button>
         </div>
       </div>
