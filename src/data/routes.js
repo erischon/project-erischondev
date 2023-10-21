@@ -8,12 +8,12 @@ export const routes = [
     url: "/#about",
   },
   {
-    name: "Services",
-    url: "/#services",
-  },
-  {
     name: "Portfolio",
     url: "/#portfolio",
+  },
+  {
+    name: "Services",
+    url: "/#services",
   },
   {
     name: "Blog",

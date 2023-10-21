@@ -1,12 +1,12 @@
 import { specialities } from "@/data/specialities";
 import { metrics } from "@/data/metrics";
+import SectionTitle from "@/components/SectionTitle";
+import Section from "@/components/Section";
 
 export default function AboutSection() {
   return (
-    <section id="about" className="py-16 w-full">
-      <h2 className="text-4xl my-14 mx-auto border-b-4 border-amber-400 pb-2 w-fit">
-        About
-      </h2>
+    <Section id="about">
+      <SectionTitle>About</SectionTitle>
 
       <div className="grid grid-cols-12 gap-x-2 gap-y-5 mb-5 px-10 py-10 bg-slate-800">
         <div className="col-span-3">
@@ -14,7 +14,7 @@ export default function AboutSection() {
             <span className="text-8xl font-bold flex items-end">20+</span>
           </div>
 
-          <div className="flex flex-col text-lg tracking-widest font-semibold justify-start">
+          <div className="flex flex-col text-xl tracking-widest font-bold justify-start">
             <span>Ans</span>
             <span>d'expériences</span>
             <span>professionnelles</span>
@@ -22,17 +22,27 @@ export default function AboutSection() {
         </div>
 
         <div className="col-span-9">
-          <p className="mb-10">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat,
-            corrupti recusandae? Dolorem, reiciendis. Recusandae, optio tempore
-            ipsa ad sed rem nisi dolore dolores, ducimus, possimus quis animi
-            eius repellat quasi.
+          <p className="flex flex-col gap-2 mb-10 ">
+            <span>
+              Bonjour, je suis Eri, développeur Front-end Freelance en full
+              remote.
+            </span>
+            <span>
+              Je suis tombé dans l'univers du Web en 1995 et depuis je ne l'ai
+              pas quitté.
+            </span>
+
+            <span>
+              De Traffic Manager à Développeur Front-end en passant par Project
+              Manager et Consultant Webmarketing j'ai passé plus de 20 ans à
+              travailler dans le Web.
+            </span>
           </p>
 
           <div className="flex gap-x-5">
             {specialities.map((speciality) => (
-              <div className="flex flex-col gap-y-2 bg-slate-900 p-5 rounded-lg">
-                <div className="bg-amber-400 w-fit p-2 text-2xl text-slate-800 rounded-xl">
+              <div className="flex flex-col gap-y-2 bg-slate-900/70 p-5 rounded-lg">
+                <div className="bg-amber-400 w-fit p-2 text-2xl text-slate-900 rounded-xl">
                   {speciality.icon}
                 </div>
                 <h3 className="font-semibold">{speciality.title}</h3>
@@ -45,7 +55,10 @@ export default function AboutSection() {
         </div>
       </div>
 
-      <div className="grid grid-cols-3 gap-10 py-10 px-10 bg-slate-900">
+      <div className="grid grid-cols-4 gap-10 py-10 px-10 bg-slate-900">
+        <p className="flex items-center text-lg font-semibold">
+          En quelques chiffres
+        </p>
         {metrics.map((metric) => (
           <div className="flex flex-col text-center p-5 bg-slate-800 rounded-lg">
             <span className="text-3xl font-bold">{metric.metric}</span>
@@ -53,6 +66,6 @@ export default function AboutSection() {
           </div>
         ))}
       </div>
-    </section>
+    </Section>
   );
 }

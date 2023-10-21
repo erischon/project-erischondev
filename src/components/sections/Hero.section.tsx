@@ -45,11 +45,11 @@ export default function HeroSection() {
           </div>
 
           <div className="flex gap-x-10">
-            <button className="bg-purple-600 text-slate-100 rounded-lg py-2 px-6 hover:text-slate-100/80">
+            <button className="bg-purple-600 text-slate-100 rounded-lg py-2 px-6 hover:text-slate-100/80 font-semibold">
               Me contacter
             </button>
 
-            <button className="border-2 border-purple-600 text-slate-100 rounded-lg py-2 px-6 hover:text-slate-100/80">
+            <button className="border-2 border-purple-600 text-slate-100 rounded-lg py-2 px-6 hover:text-slate-100/80 font-semibold">
               Mes Services
             </button>
           </div>

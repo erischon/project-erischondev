@@ -21,7 +21,7 @@ export default function Header(): JSX.Element {
 
       <Navbar />
 
-      <button className="bg-purple-600 text-slate-100 py-2 px-4 rounded-lg">
+      <button className="bg-purple-600 text-slate-100 font-semibold py-2 px-4 rounded-lg">
         Prendre RDV
       </button>
     </header>
