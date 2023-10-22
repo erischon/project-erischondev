@@ -58,10 +58,11 @@ export default function AboutSection() {
         </div>
       </div>
 
-      <div className="grid grid-cols-4 gap-10 py-5 px-10 bg-slate-900">
-        <p className="flex items-center text-lg font-semibold">
+      <div className="flex flex-col md:grid md:grid-cols-4 gap-10 py-5 px-10 bg-slate-900">
+        <p className="md:flex md:items-center text-lg font-semibold text-center md:text-left">
           En quelques chiffres
         </p>
+
         {metrics.map((metric, k) => (
           <div
             key={k}
