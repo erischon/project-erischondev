@@ -8,8 +8,8 @@ export const routes = [
     url: "/#about",
   },
   {
-    name: "Portfolio",
-    url: "/#portfolio",
+    name: "Projects",
+    url: "/#projects",
   },
   {
     name: "Services",

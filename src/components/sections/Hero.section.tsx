@@ -3,21 +3,26 @@ import Link from "next/link";
 
 import { SiLinkedin, SiGithub } from "react-icons/si";
 
+import Section from "@/components/Section";
+import Button from "@/components/Button";
+
 export default function HeroSection() {
   return (
-    <section id="home" className="px-5 w-full py-20">
+    <Section id="home">
       <div className="grid md:grid-cols-12">
-        <div className="col-span-6 ">
+        <div className="order-2 md:col-span-6 md:order-1">
           <div className="flex flex-col mb-7">
-            <p className="text-slate-300 text-lg">
+            <p className="text-slate-300 text-lg mb-1">
               <span className="mr-2">Bonjour, je suis</span>
-              <span className="text-xl text-amber-300 tracking-wider font-thin">
+              <span className="text-xl text-amber-300 tracking-wider">
                 Eri Schön
               </span>
             </p>
-            <h2 className="text-5xl font-bold tracking-widest mb-7">
+
+            <h2 className="text-4xl font-bold tracking-widest mb-7">
               Développeur Front-end
             </h2>
+
             <p className="text-slate-100/80">
               Je suis un Artisan Développeur spécialisé dans la confection
               d&apos;applications web Fluides, Rapides et Fiables.
@@ -44,18 +49,16 @@ export default function HeroSection() {
             </Link>
           </div>
 
-          <div className="flex gap-x-10">
-            <button className="bg-purple-600 text-slate-100 rounded-lg py-2 px-6 hover:text-slate-100/80 font-semibold">
-              Me contacter
-            </button>
+          <div className="flex justify-between md:justify-start gap-x-5 md:gap-x-10">
+            <Button>Prendre RDV</Button>
 
-            <button className="border-2 border-purple-600 text-slate-100 rounded-lg py-2 px-6 hover:text-slate-100/80 font-semibold">
+            <button className="border-2 border-amber-400 text-slate-100 rounded-lg py-1 px-2 md:py-2 md:px-6 hover:text-slate-300 font-semibold">
               Mes Services
             </button>
           </div>
         </div>
 
-        <div className="col-span-6">
+        <div className="order-1 mb-5 md:col-span-6 md:order-2 md:mb-0">
           <Image
             src="/images/hero-dev.svg"
             width={375}
@@ -65,6 +68,6 @@ export default function HeroSection() {
           />
         </div>
       </div>
-    </section>
+    </Section>
   );
 }

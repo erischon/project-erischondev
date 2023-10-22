@@ -2,6 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 import Navbar from "@/components/Navbar";
+import Button from "@/components/Button";
 
 export default function Header(): JSX.Element {
   return (
@@ -15,15 +16,13 @@ export default function Header(): JSX.Element {
             height={30}
           />
 
-          <h2 className="text-xl font-light tracking-wider">Eri Schön</h2>
+          <h2 className="text-xl font-bold tracking-wider">Eri Schön</h2>
         </Link>
       </div>
 
       <Navbar />
 
-      <button className="bg-purple-600 text-slate-100 font-semibold py-2 px-4 rounded-lg">
-        Prendre RDV
-      </button>
+      <Button>Prendre RDV</Button>
     </header>
   );
 }

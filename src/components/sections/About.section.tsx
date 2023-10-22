@@ -8,20 +8,20 @@ export default function AboutSection() {
     <Section id="about">
       <SectionTitle>About</SectionTitle>
 
-      <div className="grid grid-cols-12 gap-x-2 gap-y-5 mb-5 px-10 py-10 bg-slate-800">
-        <div className="col-span-3">
-          <div className="mb-5">
+      <div className="md:grid md:grid-cols-12 gap-x-2 gap-y-5 mb-5 p-5  md:p-10 bg-slate-800">
+        <div className="flex items-center gap-x-5 md:block md:col-span-3 mb-5 md:mb-0">
+          <div className="mb-5 md:mb-0">
             <span className="text-8xl font-bold flex items-end">20+</span>
           </div>
 
-          <div className="flex flex-col text-xl tracking-widest font-bold justify-start">
+          <div className="flex flex-col text-sm tracking-widest font-bold justify-start text-slate-300">
             <span>Ans</span>
             <span>d&apos;expériences</span>
             <span>professionnelles</span>
           </div>
         </div>
 
-        <div className="col-span-9">
+        <div className="md:col-span-9">
           <p className="flex flex-col gap-2 mb-10 ">
             <span>
               Bonjour, je suis Eri, développeur Front-end Freelance en full
@@ -39,7 +39,7 @@ export default function AboutSection() {
             </span>
           </p>
 
-          <div className="flex gap-x-5">
+          <div className="flex flex-col md:grid md:grid-cols-3 gap-5">
             {specialities.map((speciality, k) => (
               <div
                 key={k}
@@ -48,7 +48,7 @@ export default function AboutSection() {
                 <div className="bg-amber-400 w-fit p-2 text-2xl text-slate-900 rounded-xl">
                   {speciality.icon}
                 </div>
-                <h3 className="font-semibold">{speciality.title}</h3>
+                <h3 className="font-semibold text-sm">{speciality.title}</h3>
                 <p className="text-sm text-slate-100/80">
                   {speciality.description}
                 </p>
@@ -58,10 +58,11 @@ export default function AboutSection() {
         </div>
       </div>
 
-      <div className="grid grid-cols-4 gap-10 py-10 px-10 bg-slate-900">
-        <p className="flex items-center text-lg font-semibold">
+      <div className="flex flex-col md:grid md:grid-cols-4 gap-10 py-5 px-10 bg-slate-900">
+        <p className="md:flex md:items-center text-lg font-semibold text-center md:text-left">
           En quelques chiffres
         </p>
+
         {metrics.map((metric, k) => (
           <div
             key={k}
