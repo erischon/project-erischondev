@@ -1,13 +1,15 @@
 import Image from "next/image";
 import Link from "next/link";
 
+import Section from "@/components/Section";
+
 import { SiLinkedin, SiGithub } from "react-icons/si";
 
 export default function HeroSection() {
   return (
-    <section id="home" className="px-5 w-full py-20">
+    <Section id="home">
       <div className="grid md:grid-cols-12">
-        <div className="col-span-6 ">
+        <div className="order-2 md:col-span-6 md:order-1">
           <div className="flex flex-col mb-7">
             <p className="text-slate-300 text-lg mb-1">
               <span className="mr-2">Bonjour, je suis</span>
@@ -15,9 +17,11 @@ export default function HeroSection() {
                 Eri Schön
               </span>
             </p>
-            <h2 className="text-5xl font-bold tracking-widest mb-7">
+
+            <h2 className="text-4xl font-bold tracking-widest mb-7">
               Développeur Front-end
             </h2>
+
             <p className="text-slate-100/80">
               Je suis un Artisan Développeur spécialisé dans la confection
               d&apos;applications web Fluides, Rapides et Fiables.
@@ -46,7 +50,7 @@ export default function HeroSection() {
 
           <div className="flex gap-x-10">
             <button className="bg-purple-600 text-slate-100 rounded-lg py-2 px-6 hover:text-slate-100/80 font-semibold">
-              Me contacter
+              Prendre RDV
             </button>
 
             <button className="border-2 border-purple-600 text-slate-100 rounded-lg py-2 px-6 hover:text-slate-100/80 font-semibold">
@@ -55,7 +59,7 @@ export default function HeroSection() {
           </div>
         </div>
 
-        <div className="col-span-6">
+        <div className="order-1 mb-5 md:col-span-6 md:order-2 md:mb-0">
           <Image
             src="/images/hero-dev.svg"
             width={375}
@@ -65,6 +69,6 @@ export default function HeroSection() {
           />
         </div>
       </div>
-    </section>
+    </Section>
   );
 }
