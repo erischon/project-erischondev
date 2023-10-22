@@ -11,7 +11,7 @@ import SectionTitle from "@/components/SectionTitle";
 import { projects } from "@/data/projects";
 
 const ProjectsSection = () => {
-  const [tag, setTag] = useState("All");
+  const [tag, setTag] = useState("Business Class Project");
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true });
 
@@ -31,23 +31,21 @@ const ProjectsSection = () => {
   return (
     <Section id="projects">
       <SectionTitle>Projets</SectionTitle>
-      <div className="text-white flex flex-row justify-center items-center gap-2 py-6">
+
+      <div className="textslate-100 flex flex-row justify-center items-center gap-5 py-10">
         <ProjectTag
           onClick={handleTagChange}
-          name="All"
-          isSelected={tag === "All"}
+          name="Business Class Project"
+          isSelected={tag === "Business Class Project"}
         />
+
         <ProjectTag
           onClick={handleTagChange}
-          name="Web"
-          isSelected={tag === "Web"}
-        />
-        <ProjectTag
-          onClick={handleTagChange}
-          name="Mobile"
-          isSelected={tag === "Mobile"}
+          name="Mini Site"
+          isSelected={tag === "Mini Site"}
         />
       </div>
+
       <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12">
         {filteredProjects.map((project, index) => (
           <motion.li
