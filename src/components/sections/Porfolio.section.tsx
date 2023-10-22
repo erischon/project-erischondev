@@ -1,6 +1,6 @@
 import Section from "@/components/Section";
 import SectionTitle from "@/components/SectionTitle";
-import ProjectCard from "@/components/Project.card";
+import ProjectCard from "@/components/_Project.card";
 
 import { projects } from "@/data/projects";
 
