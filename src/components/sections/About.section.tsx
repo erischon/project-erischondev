@@ -8,13 +8,13 @@ export default function AboutSection() {
     <Section id="about">
       <SectionTitle>About</SectionTitle>
 
-      <div className="grid grid-cols-12 gap-x-2 gap-y-5 mb-5 px-10 py-10 bg-slate-800">
-        <div className="col-span-3">
+      <div className="md:grid md:grid-cols-12 gap-x-2 gap-y-5 mb-5 p-5  md:p-10 bg-slate-800">
+        <div className="flex gap-x-5 md:block md:col-span-3 mb-5 md:mb-0">
           <div className="mb-5">
-            <span className="text-8xl font-bold flex items-end">20+</span>
+            <span className="text-7xl font-bold flex items-end">20+</span>
           </div>
 
-          <div className="flex flex-col text-xl tracking-widest font-bold justify-start">
+          <div className="flex flex-col text-md tracking-widest font-bold justify-start">
             <span>Ans</span>
             <span>d&apos;expériences</span>
             <span>professionnelles</span>
