@@ -49,7 +49,7 @@ export default function HeroSection() {
             </Link>
           </div>
 
-          <div className="flex gap-x-5 md:gap-x-10">
+          <div className="flex justify-between md:justify-start gap-x-5 md:gap-x-10">
             <Button>Prendre RDV</Button>
 
             <button className="border-2 border-amber-400 text-slate-100 rounded-lg py-1 px-2 md:py-2 md:px-6 hover:text-slate-300 font-semibold">
