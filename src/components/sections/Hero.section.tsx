@@ -36,6 +36,7 @@ export default function HeroSection() {
               href="https://www.linkedin.com/in/ericschonhofen/"
               className="text-slate-400 text-xl hover:text-slate-400/70"
               target="_blank"
+              aria-label="Linkedin"
             >
               <SiLinkedin />
             </Link>
@@ -44,6 +45,7 @@ export default function HeroSection() {
               href="https://github.com/erischon"
               className="text-slate-400 text-xl hover:text-slate-400/70"
               target="_blank"
+              aria-label="Github"
             >
               <SiGithub />
             </Link>
@@ -65,6 +67,7 @@ export default function HeroSection() {
             height={375}
             alt="Developpeur Front-end"
             className="mx-auto"
+            priority={true}
           />
         </div>
       </div>
