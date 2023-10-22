@@ -1,9 +1,10 @@
 import Image from "next/image";
 import Link from "next/link";
 
-import Section from "@/components/Section";
-
 import { SiLinkedin, SiGithub } from "react-icons/si";
+
+import Section from "@/components/Section";
+import Button from "@/components/Button";
 
 export default function HeroSection() {
   return (
@@ -48,12 +49,10 @@ export default function HeroSection() {
             </Link>
           </div>
 
-          <div className="flex gap-x-10">
-            <button className="bg-purple-600 text-slate-100 rounded-lg py-2 px-6 hover:text-slate-100/80 font-semibold">
-              Prendre RDV
-            </button>
+          <div className="flex gap-x-5 md:gap-x-10">
+            <Button>Prendre RDV</Button>
 
-            <button className="border-2 border-purple-600 text-slate-100 rounded-lg py-2 px-6 hover:text-slate-100/80 font-semibold">
+            <button className="border-2 border-amber-400 text-slate-100 rounded-lg py-1 px-2 md:py-2 md:px-6 hover:text-slate-300 font-semibold">
               Mes Services
             </button>
           </div>
