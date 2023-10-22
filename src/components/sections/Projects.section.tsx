@@ -30,9 +30,16 @@ const ProjectsSection = () => {
 
   return (
     <Section id="projects">
-      <SectionTitle>Projets</SectionTitle>
+      <SectionTitle styles="mb-1 md:mb-4">Projets</SectionTitle>
 
-      <div className="textslate-100 flex flex-row justify-center items-center gap-5 py-10">
+      <p className="text-sm text-slate-300 px-5 max-w-screen-md mx-auto">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus
+        voluptates tempora iure vitae aliquid exercit ationem voluptatem porro
+        voluptas unde qui. Quae iste harum ducimus veritatis repellendus,
+        repudiandae dolore reprehenderit voluptas?
+      </p>
+
+      <div className="text-slate-100 flex flex-row justify-center items-center gap-5 py-10">
         <ProjectTag
           onClick={handleTagChange}
           name="Business Class Project"
