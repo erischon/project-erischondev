@@ -1,12 +1,12 @@
 export const projects = [
   {
     id: 1,
-    title: "React Portfolio Website",
-    description: "Project 1 description",
-    image: "/images/projects/1.png",
+    title: "Labour",
+    description: "Une application de gestion de tâches personnelles.",
+    image: "/images/projects/labour-screens-3.png",
     tag: ["All", "Mini Site"],
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl: "https://github.com/erischon/labour",
+    previewUrl: "https://labour.erischon.dev/",
   },
   {
     id: 2,
