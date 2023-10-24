@@ -18,13 +18,13 @@ export default function ServicesSection() {
         voluptates tempora iure vitae aliquid exercit ationem voluptatem porro.
       </p>
 
-      <div className="md:grid md:grid-cols-2 my-5">
+      <div className="md:grid md:grid-cols-2 py-10">
         <Image
           src="/images/services.svg"
           alt=""
           width={500}
           height={500}
-          className="my-auto"
+          className="my-5"
         />
 
         <div className="flex flex-col gap-3 md:grid md:grid-cols-2">

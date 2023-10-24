@@ -15,7 +15,6 @@ export default function PortfolioPage(): JSX.Element {
         <ProjectsSection />
         <ServicesSection />
         <TestimonialsSection />
-        <ProcessSection />
         <ContactSection />
       </main>
     </>
