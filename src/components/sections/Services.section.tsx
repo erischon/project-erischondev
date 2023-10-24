@@ -18,27 +18,42 @@ export default function ServicesSection() {
         voluptates tempora iure vitae aliquid exercit ationem voluptatem porro.
       </p>
 
-      <Image src="/images/services.svg" alt="" width={500} height={500} />
+      <div className="md:grid md:grid-cols-2 my-5">
+        <Image
+          src="/images/services.svg"
+          alt=""
+          width={500}
+          height={500}
+          className="my-auto"
+        />
 
-      <div className="flex flex-col gap-3">
-        {services.map((service, k) => (
-          <div key={k} className="flex flex-col gap-2 bg-slate-800 p-5 w-full">
-            <div className="text-2xl bg-slate-600 w-fit p-2 rounded-md">
-              {service.icon}
+        <div className="flex flex-col gap-3 md:grid md:grid-cols-2">
+          {services.map((service, k) => (
+            <div
+              key={k}
+              className="flex flex-col gap-2 bg-slate-800 rounded-md p-5 w-full"
+            >
+              <div className="text-2xl bg-slate-600 w-fit p-2 rounded-md">
+                {service.icon}
+              </div>
+
+              <h3 className="text-amber-400 font-semibold md:text-sm">
+                {service.name}
+              </h3>
+
+              <p className="text-slate-400 text-sm md:text-xs flex-1">
+                {service.description}
+              </p>
+
+              <button className=" text-xs hover:text-amber-400 w-fit pt-2">
+                <Link href="/" className="flex gap-2 items-center">
+                  En savoir plus
+                  <HiArrowSmRight />
+                </Link>
+              </button>
             </div>
-
-            <h3 className="font-semibold">{service.name}</h3>
-
-            <p className="text-slate-400 text-sm">{service.description}</p>
-
-            <button className=" text-xs hover:text-amber-400 w-fit pt-2">
-              <Link href="/" className="flex gap-2 items-center">
-                En savoir plus
-                <HiArrowSmRight />
-              </Link>
-            </button>
-          </div>
-        ))}
+          ))}
+        </div>
       </div>
     </Section>
   );
