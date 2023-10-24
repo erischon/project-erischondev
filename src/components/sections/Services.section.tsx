@@ -24,7 +24,7 @@ export default function ServicesSection() {
           alt=""
           width={500}
           height={500}
-          className="my-5"
+          className="my-auto"
         />
 
         <div className="flex flex-col gap-3 md:grid md:grid-cols-2">
