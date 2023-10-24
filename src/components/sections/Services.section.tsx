@@ -6,6 +6,7 @@ import Section from "@/components/Section";
 import SectionTitle from "@/components/SectionTitle";
 
 import { services } from "@/data/services";
+import Link from "next/link";
 
 export default function ServicesSection() {
   return (
@@ -21,7 +22,7 @@ export default function ServicesSection() {
 
       <div className="flex flex-col gap-3">
         {services.map((service, k) => (
-          <div key={k} className="flex flex-col gap-2 bg-slate-800 p-5">
+          <div key={k} className="flex flex-col gap-2 bg-slate-800 p-5 w-full">
             <div className="text-2xl bg-slate-600 w-fit p-2 rounded-md">
               {service.icon}
             </div>
@@ -30,9 +31,11 @@ export default function ServicesSection() {
 
             <p className="text-slate-400 text-sm">{service.description}</p>
 
-            <button className="flex gap-2 items-center text-xs hover:bg-slate-900 w-max">
-              <span>En savoir plus</span>
-              <HiArrowSmRight />
+            <button className=" text-xs hover:text-amber-400 w-fit pt-2">
+              <Link href="/" className="flex gap-2 items-center">
+                En savoir plus
+                <HiArrowSmRight />
+              </Link>
             </button>
           </div>
         ))}
