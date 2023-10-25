@@ -5,7 +5,7 @@ import { MdMiscellaneousServices } from "react-icons/md";
 
 export const routes = [
   {
-    name: "About",
+    name: "A propos",
     url: "/#about",
     icon: <HiOutlineInformationCircle />,
   },

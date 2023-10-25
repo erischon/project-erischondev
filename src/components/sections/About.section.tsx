@@ -6,7 +6,7 @@ import Section from "@/components/Section";
 export default function AboutSection() {
   return (
     <Section id="about">
-      <SectionTitle>About</SectionTitle>
+      <SectionTitle>A propos</SectionTitle>
 
       <div className="md:grid md:grid-cols-12 gap-x-2 gap-y-5 mb-5 p-5  md:p-10 bg-slate-800">
         <div className="flex items-center gap-x-5 md:block md:col-span-3 mb-5 md:mb-0">

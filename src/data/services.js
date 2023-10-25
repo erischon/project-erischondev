@@ -5,14 +5,9 @@ import { PiToolboxBold } from "react-icons/pi";
 
 export const services = [
   {
-    name: "Développement Front-end",
+    name: "Développement",
     icon: <HiOutlineComputerDesktop />,
     description: "Développement d'applications web sur mesure.",
-  },
-  {
-    name: "Ressource externe",
-    icon: <PiToolboxBold />,
-    description: "Développement de sites web et d'applications web sur mesure.",
   },
   {
     name: "Maintenance",
@@ -24,5 +19,10 @@ export const services = [
     icon: <CgPerformance />,
     description:
       "Optimisation des performances et de l'accessibilité de votre application web.",
+  },
+  {
+    name: "Ressource externe",
+    icon: <PiToolboxBold />,
+    description: "Développement de sites web et d'applications web sur mesure.",
   },
 ];

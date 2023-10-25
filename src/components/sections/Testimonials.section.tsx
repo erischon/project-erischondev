@@ -8,7 +8,7 @@ import test from "node:test";
 export default function TestimonialsSection() {
   return (
     <Section id="testimonials">
-      <SectionTitle styles="mb-1 md:mb-4">Testimonials</SectionTitle>
+      <SectionTitle styles="mb-1 md:mb-4">Témoignages</SectionTitle>
 
       <p className="text-sm text-slate-300 px-5 max-w-screen-md mx-auto">
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus
