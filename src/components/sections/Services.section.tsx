@@ -46,7 +46,7 @@ export default function ServicesSection() {
               </p>
 
               <button className=" text-xs hover:text-amber-400 w-fit pt-2">
-                <Link href="/" className="flex gap-2 items-center">
+                <Link href="/#rdv" className="flex gap-2 items-center">
                   En savoir plus
                   <HiArrowSmRight />
                 </Link>

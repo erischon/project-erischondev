@@ -25,7 +25,10 @@ export default function HeroSection() {
 
             <p className="text-slate-100/80">
               Je suis un Artisan Développeur spécialisé dans la confection
-              d&apos;applications web Fluides, Rapides et Fiables.
+              d&apos;applications web{" "}
+              <span className="text-slate-50">Fluides</span>,{" "}
+              <span className="text-slate-50">Rapides</span> et{" "}
+              <span className="text-slate-50">Fiables</span>.
             </p>
           </div>
 
@@ -52,7 +55,9 @@ export default function HeroSection() {
           </div>
 
           <div className="flex justify-between md:justify-start gap-x-5 md:gap-x-10">
-            <Button>Prendre RDV</Button>
+            <Button>
+              <Link href="/#rdv">Prendre RDV</Link>
+            </Button>
 
             <button className="border-2 border-amber-400 text-slate-100 rounded-lg py-1 px-2 md:py-2 md:px-6 hover:text-slate-300 font-semibold">
               Mes Services
