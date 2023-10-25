@@ -14,8 +14,8 @@ export default function AboutSection() {
             <span className="text-8xl font-bold flex items-end">20+</span>
           </div>
 
-          <div className="flex flex-col text-sm tracking-widest font-bold justify-start text-slate-300">
-            <span>Ans</span>
+          <div className="flex flex-col text-sm md:text-md tracking-widest font-bold justify-start text-slate-400">
+            <span>ans</span>
             <span>d&apos;expériences</span>
             <span>professionnelles</span>
           </div>

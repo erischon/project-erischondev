@@ -1,26 +1,27 @@
+import { HiOutlineInformationCircle } from "react-icons/hi";
+import { HiOutlineChatBubbleLeftRight } from "react-icons/hi2";
+import { HiOutlineFolder } from "react-icons/hi";
+import { MdMiscellaneousServices } from "react-icons/md";
+
 export const routes = [
-  {
-    name: "Home",
-    url: "/",
-  },
   {
     name: "About",
     url: "/#about",
+    icon: <HiOutlineInformationCircle />,
   },
   {
     name: "Projects",
     url: "/#projects",
+    icon: <HiOutlineFolder />,
   },
   {
     name: "Services",
     url: "/#services",
-  },
-  {
-    name: "Blog",
-    url: "/#blog",
+    icon: <MdMiscellaneousServices />,
   },
   {
     name: "Contact",
     url: "/#contact",
+    icon: <HiOutlineChatBubbleLeftRight />,
   },
 ];
