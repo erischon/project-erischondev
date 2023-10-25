@@ -1,6 +1,10 @@
-import React from "react";
-import { CodeBracketIcon, EyeIcon } from "@heroicons/react/24/outline";
 import Link from "next/link";
+
+import {
+  HiCodeBracket,
+  HiOutlineEye,
+  HiOutlineBookOpen,
+} from "react-icons/hi2";
 
 type ProjectCardProps = {
   imgUrl: string;
@@ -8,6 +12,7 @@ type ProjectCardProps = {
   description: string;
   gitUrl: string;
   previewUrl: string;
+  readmeUrl: string;
 };
 
 const ProjectCard = ({
@@ -16,6 +21,7 @@ const ProjectCard = ({
   description,
   gitUrl,
   previewUrl,
+  readmeUrl,
 }: ProjectCardProps) => {
   return (
     <div>
@@ -24,23 +30,37 @@ const ProjectCard = ({
         style={{
           background: `url(${imgUrl})`,
           backgroundSize: "cover",
-          backgroundPosition: "center",
+          backgroundPosition: "top left",
         }}
       >
-        <div className="overlay items-center justify-center absolute top-0 left-0 w-full h-full bg-[#181818] bg-opacity-0 hidden group-hover:flex group-hover:bg-opacity-80 transition-all duration-500 ">
+        <div className="overlay items-center justify-center flex-col gap-3 absolute top-0 left-0 w-full h-full bg-[#181818] bg-opacity-0 hidden group-hover:flex group-hover:bg-opacity-80 transition-all duration-500 ">
+          <div className="flex w-full justify-center items-center gap-3">
+            <Link
+              href={gitUrl}
+              target="_blank"
+              aria-label="Github Link"
+              className="h-14 w-14 border-2 relative rounded-full border-[#ADB7BE] hover:border-white group/link"
+            >
+              <HiCodeBracket className="h-10 w-10 text-[#ADB7BE] absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2  cursor-pointer group-hover/link:text-white" />
+            </Link>
+
+            <Link
+              href={previewUrl}
+              target="_blank"
+              aria-label="Preview Link"
+              className="h-14 w-14 border-2 relative rounded-full border-[#ADB7BE] hover:border-white group/link"
+            >
+              <HiOutlineEye className="h-10 w-10 text-[#ADB7BE] absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2  cursor-pointer group-hover/link:text-white" />
+            </Link>
+          </div>
+
           <Link
-            href={gitUrl}
+            href={readmeUrl}
             target="_blank"
-            className="h-14 w-14 mr-2 border-2 relative rounded-full border-[#ADB7BE] hover:border-white group/link"
-          >
-            <CodeBracketIcon className="h-10 w-10 text-[#ADB7BE] absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2  cursor-pointer group-hover/link:text-white" />
-          </Link>
-          <Link
-            href={previewUrl}
-            target="_blank"
+            aria-label="Readme Link"
             className="h-14 w-14 border-2 relative rounded-full border-[#ADB7BE] hover:border-white group/link"
           >
-            <EyeIcon className="h-10 w-10 text-[#ADB7BE] absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2  cursor-pointer group-hover/link:text-white" />
+            <HiOutlineBookOpen className="h-10 w-10 text-[#ADB7BE] absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2  cursor-pointer group-hover/link:text-white" />
           </Link>
         </div>
       </div>

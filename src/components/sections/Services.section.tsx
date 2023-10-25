@@ -24,7 +24,7 @@ export default function ServicesSection() {
           alt=""
           width={500}
           height={500}
-          className="my-5"
+          className="mb-5 md:my-auto"
         />
 
         <div className="flex flex-col gap-3 md:grid md:grid-cols-2">
@@ -46,7 +46,7 @@ export default function ServicesSection() {
               </p>
 
               <button className=" text-xs hover:text-amber-400 w-fit pt-2">
-                <Link href="/" className="flex gap-2 items-center">
+                <Link href="/#rdv" className="flex gap-2 items-center">
                   En savoir plus
                   <HiArrowSmRight />
                 </Link>

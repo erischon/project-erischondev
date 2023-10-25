@@ -22,7 +22,9 @@ export default function Header(): JSX.Element {
 
       <Navbar />
 
-      <Button>Prendre RDV</Button>
+      <Button>
+        <Link href="/#rdv">Prendre RDV</Link>
+      </Button>
     </header>
   );
 }

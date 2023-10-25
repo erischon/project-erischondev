@@ -10,7 +10,7 @@ export default function ContactSection() {
       <SectionTitle>Contact</SectionTitle>
 
       <div className="flex flex-col-reverse md:flex-row w-full">
-        <div className="md:w-1/2 p-5">
+        <div className="md:w-5/12 p-5">
           <h3 className="text-lg font-semibold">Coordonnées</h3>
 
           <div className="flex flex-col w-full gap-5 py-5">
@@ -27,14 +27,21 @@ export default function ContactSection() {
           </div>
         </div>
 
-        <div className="md:w-1/2 border-2 border-amber-400 p-5 rounded-lg">
+        <div
+          className="md:w-7/12 border-2 border-amber-400 p-5 rounded-lg"
+          id="rdv"
+        >
           <h3 className="text-lg font-semibold">Prendre rdv</h3>
 
           <p className="text-slate-300 pb-10">
             Lorem ipsum dolor sit amet consectetur adipisicing elit
           </p>
 
-          <Button styles="text-lg w-full">Prendre rdv</Button>
+          <Button styles="text-lg w-full">
+            <a href="https://calendly.com/erischon/contact" target="_blank">
+              Prendre rdv
+            </a>
+          </Button>
         </div>
       </div>
     </Section>
