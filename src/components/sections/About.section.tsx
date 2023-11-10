@@ -33,9 +33,9 @@ export default function AboutSection() {
             </span>
 
             <span>
-              De Traffic Manager à Développeur Front-end en passant par Project
-              Manager et Consultant Webmarketing j&apos;ai passé plus de 20 ans
-              à travailler dans le Web.
+              De Traffic Manager à Développeur Front-end en passant par Ad Ops
+              et Consultant Webmarketing j&apos;ai passé plus de 20 ans à
+              travailler dans le Web.
             </span>
           </p>
 
