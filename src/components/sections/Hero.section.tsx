@@ -20,7 +20,7 @@ export default function HeroSection() {
             </p>
 
             <h2 className="text-4xl font-bold tracking-widest mb-7">
-              Développeur Front-end
+              Développeur Front-end React
             </h2>
 
             <p className="text-slate-100/80">
