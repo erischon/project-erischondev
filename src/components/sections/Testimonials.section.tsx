@@ -11,8 +11,7 @@ export default function TestimonialsSection() {
       <SectionTitle styles="mb-1 md:mb-4">Témoignages</SectionTitle>
 
       <p className="text-sm text-slate-300 px-5 max-w-screen-md mx-auto">
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus
-        voluptates tempora iure vitae aliquid exercit ationem voluptatem porro
+        Voici quelques témoignages de mes clients passés.
       </p>
 
       <div className="flex flex-col md:flex-row gap-3 py-10">

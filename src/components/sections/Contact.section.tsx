@@ -31,10 +31,11 @@ export default function ContactSection() {
           className="md:w-7/12 border-2 border-amber-400 p-5 rounded-lg"
           id="rdv"
         >
-          <h3 className="text-lg font-semibold">Prendre rdv</h3>
+          <h3 className="text-lg font-semibold mb-3">Prendre rdv</h3>
 
-          <p className="text-slate-300 pb-10">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit
+          <p className="text-slate-300 pb-10 text-sm">
+            Il n&apos;y a pas mieux qu&apos;un échange en direct pour échanger
+            sur votre projet et sur les besoins que vous avez.
           </p>
 
           <Button styles="text-lg w-full">

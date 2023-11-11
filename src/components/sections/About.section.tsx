@@ -24,26 +24,48 @@ export default function AboutSection() {
         <div className="md:col-span-9">
           <p className="flex flex-col gap-2 mb-10 ">
             <span>
-              Bonjour, je suis Eri, développeur Front-end Freelance en full
-              remote.
+              Bonjour, je suis Eri,{" "}
+              <span className="font-semibold tracking-wider">
+                Développeur Front-end React
+              </span>{" "}
+              Freelance en full remote.
             </span>
+
             <span>
               Je suis tombé dans l&apos;univers du Web en 1995 et depuis je ne
               l&apos;ai pas quitté.
             </span>
 
             <span>
-              De Traffic Manager à Développeur Front-end en passant par Ad Ops
-              et Consultant Webmarketing j&apos;ai passé plus de 20 ans à
-              travailler dans le Web.
+              D&apos;
+              <span className="font-semibold tracking-wider">
+                Ad Ops
+              </span> à{" "}
+              <span className="font-semibold tracking-wider">
+                Développeur Front-end
+              </span>{" "}
+              en passant par{" "}
+              <span className="font-semibold tracking-wider">
+                Project Manager
+              </span>{" "}
+              et{" "}
+              <span className="font-semibold tracking-wider">
+                Consultant Webmarketing
+              </span>
+              , j&apos;ai passé plus de 20 ans à travailler dans l&apos;univers
+              du Web.
             </span>
           </p>
+
+          <h3 className="mb-5 text-lg font-semibold">
+            Le socle de ma pratique
+          </h3>
 
           <div className="flex flex-col md:grid md:grid-cols-3 gap-5">
             {specialities.map((speciality, k) => (
               <div
                 key={k}
-                className="flex flex-col gap-y-2 bg-slate-900/70 p-5 rounded-lg"
+                className="flex flex-col gap-y-3 bg-slate-900/70 p-5 rounded-lg"
               >
                 <div className="bg-amber-400 w-fit p-2 text-2xl text-slate-900 rounded-xl">
                   {speciality.icon}

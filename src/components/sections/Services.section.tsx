@@ -13,11 +13,6 @@ export default function ServicesSection() {
     <Section id="services">
       <SectionTitle styles="mb-1 md:mb-4">Services</SectionTitle>
 
-      <p className="text-sm text-slate-300 px-5 max-w-screen-md mx-auto">
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus
-        voluptates tempora iure vitae aliquid exercit ationem voluptatem porro.
-      </p>
-
       <div className="md:grid md:grid-cols-2 py-10">
         <Image
           src="/images/services.svg"

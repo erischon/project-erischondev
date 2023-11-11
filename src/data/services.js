@@ -23,6 +23,6 @@ export const services = [
   {
     name: "Ressource externe",
     icon: <PiToolboxBold />,
-    description: "Développement de sites web et d'applications web sur mesure.",
+    description: "Soutien technique pour votre équipe de développement.",
   },
 ];

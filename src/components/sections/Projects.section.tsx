@@ -32,11 +32,17 @@ const ProjectsSection = () => {
     <Section id="projects">
       <SectionTitle styles="mb-1 md:mb-4">Projets</SectionTitle>
 
-      <p className="text-sm text-slate-300 px-5 max-w-screen-md mx-auto">
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus
-        voluptates tempora iure vitae aliquid exercit ationem voluptatem porro
-        voluptas unde qui. Quae iste harum ducimus veritatis repellendus,
-        repudiandae dolore reprehenderit voluptas?
+      <p className="text-md text-slate-300 px-5 max-w-screen-md mx-auto">
+        <span>
+          Voici une liste de projets que j&apos;ai réalisé. Certains sont des
+          projets personnels, d&apos;autres sont des projets réalisés dans le
+          cadre de mon apprentissage.
+        </span>
+
+        <span className="flex py-3 text-xs italic">
+          Les projets professionnels ne sont pas disponibles ici pour cause de
+          confidentialité.
+        </span>
       </p>
 
       <div className="text-slate-100 flex flex-row justify-center items-center gap-5 py-10">
