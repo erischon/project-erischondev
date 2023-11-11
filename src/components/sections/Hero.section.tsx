@@ -25,10 +25,11 @@ export default function HeroSection() {
 
             <p className="text-slate-100/80">
               Je suis un Artisan Développeur spécialisé dans la confection
-              d&apos;applications web{" "}
-              <span className="text-slate-50">Fluides</span>,{" "}
-              <span className="text-slate-50">Rapides</span> et{" "}
-              <span className="text-slate-50">Fiables</span>.
+              d&apos;
+              <span className="font-semibold tracking-widest text-amber-400">
+                Applications web Front office ou Back office
+              </span>{" "}
+              sur mesure.
             </p>
           </div>
 
@@ -37,7 +38,7 @@ export default function HeroSection() {
 
             <Link
               href="https://www.linkedin.com/in/ericschonhofen/"
-              className="text-slate-400 text-xl hover:text-slate-400/70"
+              className="text-slate-400 text-2xl hover:text-slate-400/70"
               target="_blank"
               aria-label="Linkedin"
             >
@@ -46,7 +47,7 @@ export default function HeroSection() {
 
             <Link
               href="https://github.com/erischon"
-              className="text-slate-400 text-xl hover:text-slate-400/70"
+              className="text-slate-400 text-2xl hover:text-slate-400/70"
               target="_blank"
               aria-label="Github"
             >

@@ -25,7 +25,7 @@ export default function AboutSection() {
           <p className="flex flex-col gap-2 mb-10 ">
             <span>
               Bonjour, je suis Eri,{" "}
-              <span className="font-semibold tracking-wider">
+              <span className="font-semibold tracking-wider text-amber-400">
                 Développeur Front-end React
               </span>{" "}
               Freelance en full remote.
@@ -38,18 +38,19 @@ export default function AboutSection() {
 
             <span>
               D&apos;
-              <span className="font-semibold tracking-wider">
+              <span className="font-semibold tracking-wider text-amber-400">
                 Ad Ops
-              </span> à{" "}
-              <span className="font-semibold tracking-wider">
+              </span>{" "}
+              à{" "}
+              <span className="font-semibold tracking-wider text-amber-400">
                 Développeur Front-end
               </span>{" "}
               en passant par{" "}
-              <span className="font-semibold tracking-wider">
+              <span className="font-semibold tracking-wider text-amber-400">
                 Project Manager
               </span>{" "}
               et{" "}
-              <span className="font-semibold tracking-wider">
+              <span className="font-semibold tracking-wider text-amber-400">
                 Consultant Webmarketing
               </span>
               , j&apos;ai passé plus de 20 ans à travailler dans l&apos;univers
