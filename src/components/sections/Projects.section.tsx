@@ -34,7 +34,7 @@ const ProjectsSection = () => {
 
       <p className="text-md text-slate-300 px-5 max-w-screen-md mx-auto">
         <span>
-          Voici une liste de projets que j&apos;ai réalisé. Certains sont des
+          Voici une liste de projets que j&apos;ai réalisés. Certains sont des
           projets personnels, d&apos;autres sont des projets réalisés dans le
           cadre de mon apprentissage.
         </span>

@@ -10,7 +10,7 @@ export const routes = [
     icon: <HiOutlineInformationCircle />,
   },
   {
-    name: "Projects",
+    name: "Projets",
     url: "/#projects",
     icon: <HiOutlineFolder />,
   },

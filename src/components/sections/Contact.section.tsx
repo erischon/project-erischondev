@@ -34,7 +34,7 @@ export default function ContactSection() {
           <h3 className="text-lg font-semibold mb-3">Prendre rdv</h3>
 
           <p className="text-slate-300 pb-10 text-sm">
-            Il n&apos;y a pas mieux qu&apos;un échange en direct pour échanger
+            Il n&apos;y a pas mieux qu&apos;un échange en direct pour partager
             sur votre projet et sur les besoins que vous avez.
           </p>
 
