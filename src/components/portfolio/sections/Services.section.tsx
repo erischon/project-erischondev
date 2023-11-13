@@ -2,8 +2,8 @@ import Image from "next/image";
 
 import { HiArrowSmRight } from "react-icons/hi";
 
-import Section from "@/components/Section";
-import SectionTitle from "@/components/SectionTitle";
+import Section from "@/components/portfolio/Section";
+import SectionTitle from "@/components/portfolio/SectionTitle";
 
 import { services } from "@/data/services";
 import Link from "next/link";

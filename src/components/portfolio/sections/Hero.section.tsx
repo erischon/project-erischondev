@@ -3,8 +3,8 @@ import Link from "next/link";
 
 import { SiLinkedin, SiGithub } from "react-icons/si";
 
-import Section from "@/components/Section";
-import Button from "@/components/Button";
+import Section from "@/components/portfolio/Section";
+import Button from "@/components/portfolio/Button";
 
 export default function HeroSection() {
   return (

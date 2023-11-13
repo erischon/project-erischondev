@@ -1,5 +1,5 @@
-import Section from "@/components/Section";
-import SectionTitle from "@/components/SectionTitle";
+import Section from "@/components/portfolio/Section";
+import SectionTitle from "@/components/portfolio/SectionTitle";
 
 import { testimonials } from "@/data/testimonials";
 import Image from "next/image";

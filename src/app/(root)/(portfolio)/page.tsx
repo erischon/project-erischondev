@@ -1,10 +1,10 @@
-import AboutSection from "@/components/sections/About.section";
-import ContactSection from "@/components/sections/Contact.section";
-import HeroSection from "@/components/sections/Hero.section";
-import ProjectsSection from "@/components/sections/Projects.section";
-import ProcessSection from "@/components/sections/Process.section";
-import ServicesSection from "@/components/sections/Services.section";
-import TestimonialsSection from "@/components/sections/Testimonials.section";
+import AboutSection from "@/components/portfolio/sections/About.section";
+import ContactSection from "@/components/portfolio/sections/Contact.section";
+import HeroSection from "@/components/portfolio/sections/Hero.section";
+import ProjectsSection from "@/components/portfolio/sections/Projects.section";
+import ProcessSection from "@/components/portfolio/sections/Process.section";
+import ServicesSection from "@/components/portfolio/sections/Services.section";
+import TestimonialsSection from "@/components/portfolio/sections/Testimonials.section";
 
 export default function PortfolioPage(): JSX.Element {
   return (

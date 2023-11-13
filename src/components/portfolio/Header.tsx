@@ -1,8 +1,8 @@
 import Link from "next/link";
 import Image from "next/image";
 
-import Navbar from "@/components/Navbar";
-import Button from "@/components/Button";
+import Navbar from "@/components/portfolio/Navbar";
+import Button from "@/components/portfolio/Button";
 
 export default function Header(): JSX.Element {
   return (

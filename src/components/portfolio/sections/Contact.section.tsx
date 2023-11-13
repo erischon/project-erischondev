@@ -1,8 +1,8 @@
-import Section from "@/components/Section";
-import SectionTitle from "@/components/SectionTitle";
+import Section from "@/components/portfolio/Section";
+import SectionTitle from "@/components/portfolio/SectionTitle";
 
 import { contactsInfo } from "@/data/contactsInfo";
-import Button from "@/components/Button";
+import Button from "@/components/portfolio/Button";
 
 export default function ContactSection() {
   return (

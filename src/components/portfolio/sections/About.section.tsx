@@ -1,7 +1,7 @@
 import { specialities } from "@/data/specialities";
 import { metrics } from "@/data/metrics";
-import SectionTitle from "@/components/SectionTitle";
-import Section from "@/components/Section";
+import SectionTitle from "@/components/portfolio/SectionTitle";
+import Section from "@/components/portfolio/Section";
 
 export default function AboutSection() {
   return (
