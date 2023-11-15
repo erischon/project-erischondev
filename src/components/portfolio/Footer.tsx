@@ -1,18 +1,30 @@
+import { FaRegHeart } from "react-icons/fa";
+
 export default function Footer(): JSX.Element {
   return (
-    <footer className="px-10 py-10 w-full max-w-5xl mx-auto text-xs text-center md:text-start">
-      <p className=" ">
-        © 2023-{new Date().getFullYear()}{" "}
-        <a
-          href="https://www.erischon.dev"
-          target="_blank"
-          className="text-bold text-slate-300 underline hover:text-slate-50"
-        >
-          {" "}
-          Eri Schön
-        </a>{" "}
-        All rights reserved
-      </p>
+    <footer className="pb-20 pt-10 md:py-5 md:mt-20 w-full max-w-5xl mx-auto text-xs text-center md:text-start">
+      <div className="flex flex-col gap-y-2 md:flex-row md:justify-between px-5 md:px-0 py-5 text-xs">
+        <p className="flex gap-2">
+          <span>© 2023-{new Date().getFullYear()}</span>
+          <a
+            href="https://www.erischon.dev"
+            target="_blank"
+            className="font-bold text-amber-400"
+          >
+            Eri Schön
+          </a>
+          <span>All rights reserved</span>
+        </p>
+        <p className="flex gap-2">
+          <span>Made with</span>
+          <FaRegHeart className="w-5 h-5 text-red-500" />
+          <span>at Thiais</span>
+        </p>
+        <p className="flex gap-2">
+          <span>Powered by</span>
+          <span className="font-bold">Next.js</span>
+        </p>
+      </div>
     </footer>
   );
 }

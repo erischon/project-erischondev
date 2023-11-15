@@ -4,6 +4,6 @@ export const contactsInfo = [
   {
     name: "Email",
     icon: <HiOutlineMail />,
-    info: "erischon@gmail.com",
+    info: "erischon@pm.me",
   },
 ];
