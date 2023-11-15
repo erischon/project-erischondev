@@ -15,9 +15,9 @@ export default function Footer(): JSX.Element {
           </a>
           <span>All rights reserved</span>
         </p>
-        <p className="flex gap-2">
+        <p className="flex gap-2 items-center">
           <span>Made with</span>
-          <FaRegHeart className="w-5 h-5 text-red-500" />
+          <FaRegHeart className="text-lg text-red-500" />
           <span>at Thiais</span>
         </p>
         <p className="flex gap-2">
