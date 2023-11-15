@@ -102,7 +102,7 @@ export default function AboutSection() {
 
       <div className="hidden md:grid md:grid-cols-12 gap-10 py-10 px-10 bg-slate-900">
         <p className="md:col-span-3 md:flex md:items-center text-lg font-semibold text-center md:text-left">
-          Les Technos utilisées
+          J&apos;utilise
         </p>
 
         <div className="md:col-span-9 md:flex justify-center w-full">
