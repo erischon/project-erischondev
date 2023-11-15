@@ -2,8 +2,8 @@ import { FaRegHeart } from "react-icons/fa";
 
 export default function Footer(): JSX.Element {
   return (
-    <footer className="pb-20 pt-10 md:py-5 md:mt-20 w-full max-w-5xl mx-auto text-xs text-center md:text-start">
-      <div className="flex flex-col gap-y-2 md:flex-row md:justify-between px-5 md:px-0 py-5 text-xs">
+    <footer className="pb-20 pt-10 md:py-5 md:mt-20 w-full max-screen-xl mx-auto text-xs text-center md:text-start">
+      <div className="flex flex-col gap-y-2 md:flex-row md:justify-between px-5 md:px-5 py-5 text-xs">
         <p className="flex gap-2">
           <span>© 2023-{new Date().getFullYear()}</span>
           <a
