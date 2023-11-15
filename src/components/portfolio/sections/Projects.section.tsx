@@ -3,10 +3,10 @@
 import { useState, useRef } from "react";
 import { motion, useInView } from "framer-motion";
 
-import ProjectCard from "@/components/Project.card";
-import ProjectTag from "@/components/ProjectTag";
-import Section from "@/components/Section";
-import SectionTitle from "@/components/SectionTitle";
+import ProjectCard from "@/components/portfolio/Project.card";
+import ProjectTag from "@/components/portfolio/ProjectTag";
+import Section from "@/components/portfolio/Section";
+import SectionTitle from "@/components/portfolio/SectionTitle";
 
 import { projects } from "@/data/projects";
 
