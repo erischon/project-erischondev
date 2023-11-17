@@ -11,7 +11,7 @@ import SectionTitle from "@/components/portfolio/SectionTitle";
 import { projects } from "@/data/projects";
 
 const ProjectsSection = () => {
-  const [tag, setTag] = useState("Business Class Project");
+  const [tag, setTag] = useState("Mini Site");
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true });
 
