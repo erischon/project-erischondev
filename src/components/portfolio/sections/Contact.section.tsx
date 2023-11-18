@@ -38,11 +38,9 @@ export default function ContactSection() {
             sur votre projet et sur les besoins que vous avez.
           </p>
 
-          <Button styles="text-lg w-full">
-            <a href="https://calendly.com/erischon/contact" target="_blank">
-              Prendre rdv
-            </a>
-          </Button>
+          <a href="https://calendly.com/erischon/contact" target="_blank">
+            <Button styles="text-lg w-full">Prendre rdv</Button>
+          </a>
         </div>
       </div>
     </Section>

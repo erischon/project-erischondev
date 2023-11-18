@@ -40,12 +40,12 @@ export default function ServicesSection() {
                 {service.description}
               </p>
 
-              <button className=" text-xs hover:text-amber-400 w-fit pt-2">
-                <Link href="/#rdv" className="flex gap-2 items-center">
+              <Link href="/#rdv" className="">
+                <button className="flex gap-2 items-center text-xs hover:text-amber-400 w-fit pt-2">
                   En savoir plus
                   <HiArrowSmRight />
-                </Link>
-              </button>
+                </button>
+              </Link>
             </div>
           ))}
         </div>

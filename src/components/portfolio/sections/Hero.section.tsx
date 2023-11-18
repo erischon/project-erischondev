@@ -56,13 +56,15 @@ export default function HeroSection() {
           </div>
 
           <div className="flex justify-evenly md:justify-start gap-x-5 md:gap-x-10">
-            <Button>
-              <Link href="/#rdv">Prendre RDV</Link>
-            </Button>
+            <Link href="/#rdv">
+              <Button>Prendre RDV</Button>
+            </Link>
 
-            <button className="border-2 border-amber-400 text-slate-100 rounded-lg py-1 px-2 md:py-2 md:px-6 hover:text-slate-300 font-semibold">
-              <Link href="/#services">Mes Services</Link>
-            </button>
+            <Link href="/#services">
+              <button className="border-2 border-amber-400 text-slate-100 rounded-lg py-1 px-2 md:py-2 md:px-6 hover:text-slate-300 font-semibold">
+                Mes Services
+              </button>
+            </Link>
           </div>
         </div>
 
