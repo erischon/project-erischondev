@@ -1,6 +1,6 @@
 # erischon.dev
 
-Landing page portfolio.
+Landing page / Portfolio.
 
 ## License
 
@@ -12,7 +12,7 @@ https://www.erischon.dev/
 
 ## Screenshots
 
-![App Screenshot](https://labour.erischon.dev/erischondev.webp)
+![App Screenshot](https://www.erischon.dev/erischondev.webp)
 
 ## Features
 
